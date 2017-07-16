@@ -4,7 +4,7 @@
     <name>otsdb-elasticsearch</name>
     <groupId>net.opentsdb</groupId>
     <artifactId>otsdb-elasticsearch</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>2.0.0-SNAPSHOT</version>
     <description>A search plugin for OpenTSDB that works with an Elastic Search cluster over HTTP.</description>
 
     <contributors>
@@ -41,30 +41,7 @@
             <artifactId>opentsdb</artifactId>
             <version>2.2.0</version>
         </dependency>
-
-        <dependency>
-          <groupId>com.google.guava</groupId>
-          <artifactId>guava</artifactId>
-          <version>13.0.1</version>
-        </dependency>
-
-        <dependency>
-          <groupId>com.fasterxml.jackson.core</groupId>
-          <artifactId>jackson-annotations</artifactId>
-          <version>2.3.0</version>
-        </dependency>
-
-        <dependency>
-          <groupId>com.fasterxml.jackson.core</groupId>
-          <artifactId>jackson-core</artifactId>
-          <version>2.3.3</version>
-        </dependency>
-
-        <dependency>
-          <groupId>com.fasterxml.jackson.core</groupId>
-          <artifactId>jackson-databind</artifactId>
-          <version>2.3.3</version>
-        </dependency>
+        
     </dependencies>
 
     <packaging>jar</packaging>
