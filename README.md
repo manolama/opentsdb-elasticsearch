@@ -25,9 +25,9 @@ Search plugin for OpenTSDB
 
 ```  
   curl -H "Content-Type: application/json" -X PUT -d @scripts/schema_mapped_and_analyzed/opentsdb_index.json http://<eshost>/opentsdb/
-  curl -H "Content-Type: application/json" -X PUT -d @scripts/schema_mapped_and_analyzed/tsmeta_mapping.json http://<eshost>/opentsdb/tsmeta/_mapping
-  curl -H "Content-Type: application/json" -X PUT -d @scripts/schema_mapped_and_analyzed/uidmeta_mapping.json http://<eshost>/opentsdb/uidmeta/_mapping
-  curl -H "Content-Type: application/json" -X PUT -d @scripts/schema_mapped_and_analyzed/annotation_mapping.json http://<eshost>/opentsdb/annotation/_mapping
+  curl -H "Content-Type: application/json" -X PUT -d @scripts/schema_mapped_and_analyzed/tsmeta_map.json http://<eshost>/opentsdb/tsmeta/_mapping
+  curl -H "Content-Type: application/json" -X PUT -d @scripts/schema_mapped_and_analyzed/uidmeta_map.json http://<eshost>/opentsdb/uidmeta/_mapping
+  curl -H "Content-Type: application/json" -X PUT -d @scripts/schema_mapped_and_analyzed/annotation_map.json http://<eshost>/opentsdb/annotation/_mapping
 ```
 
 * Optionally add ``tsd.core.meta.enable_tracking = true`` to your TSD config if it's processing incoming data
